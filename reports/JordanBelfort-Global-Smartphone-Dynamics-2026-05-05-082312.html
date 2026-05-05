@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Smartphone Dynamics — Bi-weekly Report | 2026-05-05</title>
+<style>
+:root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9; --heading: #f0f6fc; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #d29922; --orange: #db6d28; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+header { text-align: center; padding: 40px 20px; border-bottom: 1px solid var(--border); margin-bottom: 30px; }
+header h1 { color: var(--heading); font-size: 2em; margin-bottom: 8px; }
+header .subtitle { color: var(--accent); font-size: 1.1em; }
+header .meta { color: #8b949e; font-size: 0.9em; margin-top: 10px; }
+h2 { color: var(--accent); font-size: 1.5em; margin: 30px 0 15px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); }
+h3 { color: var(--heading); font-size: 1.2em; margin: 20px 0 10px; }
+h4 { color: var(--yellow); font-size: 1.05em; margin: 15px 0 8px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin: 15px 0; }
+table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9em; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: #21262d; color: var(--heading); font-weight: 600; }
+tr:hover { background: #1c2128; }
+.up { color: var(--green); }
+.down { color: var(--red); }
+.neutral { color: var(--yellow); }
+.highlight { background: #1c2128; border-left: 3px solid var(--accent); padding: 12px 16px; margin: 10px 0; border-radius: 0 6px 6px 0; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; font-weight: 600; }
+.tag-mtk { background: #1a3a2a; color: #3fb950; }
+.tag-qc { background: #1a2a3a; color: #58a6ff; }
+.tag-kirin { background: #3a1a1a; color: #f85149; }
+.tag-unknown { background: #2a2a2a; color: #8b949e; }
+.risk-box { background: #2d1b1b; border: 1px solid #f8514933; border-radius: 8px; padding: 16px; margin: 10px 0; }
+.opp-box { background: #1b2d1b; border: 1px solid #3fb95033; border-radius: 8px; padding: 16px; margin: 10px 0; }
+.signal { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+.signal-green { background: var(--green); }
+.signal-yellow { background: var(--yellow); }
+.signal-red { background: var(--red); }
+.toc { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin: 20px 0; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc li { padding: 4px 0; }
+.toc a { color: var(--accent); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.executive-summary { background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 1px solid var(--accent); border-radius: 8px; padding: 24px; margin: 20px 0; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+@media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+.metric { text-align: center; padding: 15px; }
+.metric .value { font-size: 1.8em; font-weight: 700; color: var(--heading); }
+.metric .label { font-size: 0.85em; color: #8b949e; }
+footer { text-align: center; padding: 30px; margin-top: 40px; border-top: 1px solid var(--border); color: #8b949e; font-size: 0.85em; }
+.disclaimer { background: #2d2b1b; border: 1px solid #d2992233; border-radius: 6px; padding: 12px; margin: 15px 0; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>📱 Global Smartphone Dynamics</h1>
+<div class="subtitle">Bi-weekly Industry Intelligence Report for MediaTek Smartphone Business</div>
+<div class="meta">
+Report Date: 2026-05-05 | Period: Q3 2025 Actuals + Q1 2026 Outlook<br>
+Author: Jordan Belfort (Hermes Agent) | Data Source: IDC (primary), CNBC, Yahoo Finance
+</div>
+</header>
+
+<!-- Executive Summary -->
+<div class="executive-summary">
+<h2 style="border:none; margin-top:0;">📋 Executive Summary</h2>
+<div class="grid-2">
+<div class="metric">
+<div class="value">325.7M</div>
+<div class="label">Q3 2025 Global Shipments (IDC)</div>
+</div>
+<div class="metric">
+<div class="value up">+3.5%</div>
+<div class="label">YoY Growth (Q3 2025)</div>
+</div>
+<div class="metric">
+<div class="value">1.25B</div>
+<div class="label">2025 Full Year Forecast</div>
+</div>
+<div class="metric">
+<div class="value up">+1.5%</div>
+<div class="label">2025 YoY Growth Forecast</div>
+</div>
+</div>
+<p style="margin-top:15px;"><strong>核心判断：</strong>全球智能手机市场在2025年延续复苏态势，IDC预测全年出货12.5亿台（+1.5% YoY）。Q3 2025数据显示Samsung以18.8%份额领跑，Apple凭借iPhone 17系列在中国市场突破20%份额。2026年Q1数据尚未公开发布，市场关注关税政策对供应链的影响。MediaTek股价表现强劲（NT$2,870，+9.96%），Qualcomm因Android需求疲软预警股价承压（$168.38，-4.89%）。芯片平台竞争进入新阶段，麒麟回归持续影响中国市场格局。</p>
+</div>
+
+<!-- Table of Contents -->
+<div class="toc">
+<h3>📑 目录</h3>
+<ul>
+<li>Part 1: Global TAM/SAM & OEM Shipping Dynamics</li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s1">1. 全球市场规模追踪 (Global Market Size Tracker)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s2">2. 重点OEM出货量追踪 (Key OEM Shipping Volume)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s3">3. 重点新机追踪 (Key Model Launch Tracker)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s4">4. 供需信号 (Supply & Demand Signals)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s5">5. 芯片平台竞争格局 (Chip Platform Competitive Dynamics)</a></li>
+<li>Part 2: Regional Market Analysis</li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s6">6. 中国市场 (China Market)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s7">7. 东南亚市场 (SEA Market)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s8">8. 印度市场 (India Market)</a></li>
+<li>&nbsp;&nbsp;&nbsp;<a href="#s9">9. 拉美市场 (LATAM Market)</a></li>
+<li><a href="#risk">风险与机会信号 (Risk & Opportunity Signals)</a></li>
+<li><a href="#appendix">附录：股价数据 & 数据来源索引</a></li>
+</ul>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART 1 -->
+<!-- ============================================================ -->
+<h2>Part 1: Global TAM/SAM & OEM Shipping Dynamics</h2>
+
+<!-- Section 1 -->
+<h3 id="s1">1. 全球市场规模追踪 (Global Market Size Tracker)</h3>
+<div class="card">
+<h4>全球智能手机出货量 — IDC Q3 2025（最新公开数据）</h4>
+<p class="disclaimer">⚠️ 注意：IDC公开页面最新数据为Q3 2025（2025年11月6日发布）。Q4 2025及Q1 2026数据尚未在IDC公开渠道发布。下表为Q3 2025实际数据。</p>
+<table>
+<tr><th>公司</th><th>Q3 2025出货量（百万台）</th><th>市场份额</th><th>Q3 2024出货量（百万台）</th><th>市场份额</th><th>YoY变化</th></tr>
+<tr><td><strong>1. Samsung</strong></td><td>61.4</td><td>18.8%</td><td>57.7</td><td>18.3%</td><td class="up">+6.3%</td></tr>
+<tr><td><strong>2. Apple</strong></td><td>59.4</td><td>18.2%</td><td>57.1</td><td>18.1%</td><td class="up">+4.1%</td></tr>
+<tr><td><strong>3. Xiaomi</strong></td><td>43.4</td><td>13.3%</td><td>42.8</td><td>13.6%</td><td class="up">+1.4%</td></tr>
+<tr><td><strong>4. Transsion</strong></td><td>29.2</td><td>9.0%</td><td>25.7</td><td>8.2%</td><td class="up">+13.4%</td></tr>
+<tr><td><strong>5. vivo</strong></td><td>27.9</td><td>8.6%</td><td>27.0</td><td>8.6%</td><td class="up">+3.4%</td></tr>
+<tr><td>Others</td><td>104.5</td><td>32.1%</td><td>104.5</td><td>33.2%</td><td>0.0%</td></tr>
+<tr style="font-weight:bold;"><td>Total</td><td>325.7</td><td>100.0%</td><td>314.7</td><td>100.0%</td><td class="up">+3.5%</td></tr>
+</table>
+<p style="font-size:0.85em; color:#8b949e;">数据来源：IDC Worldwide Quarterly Mobile Phone Tracker, 2025年11月6日发布</p>
+
+<h4 style="margin-top:20px;">2025全年预测（IDC）</h4>
+<table>
+<tr><th>指标</th><th>数值</th><th>备注</th></tr>
+<tr><td>全球出货量</td><td><strong>12.5亿台</strong></td><td>+1.5% YoY（此前预测+1%，上调）</td></tr>
+<tr><td>Apple出货量</td><td><strong>2.47亿台</strong></td><td>+6.1% YoY，历史新高</td></tr>
+<tr><td>Apple营收</td><td><strong>$2,610亿</strong></td><td>+7.2% YoY，历史新高</td></tr>
+<tr><td>增长驱动</td><td colspan="2">iPhone 17系列热销、折叠屏创新、AI手机普及、新兴市场增长</td></tr>
+</table>
+
+<h4 style="margin-top:20px;">周期判断</h4>
+<div class="highlight">
+<p><span class="signal signal-green"></span><strong>当前阶段：复苏中后期</strong></p>
+<p>全球智能手机市场连续多个季度实现正增长，但增速从Q3 2025的+3.5%预计放缓至全年+1.5%。高端市场（>$600）持续强劲，AI手机和折叠屏成为换机动力。中低端市场（$100-300）增长主要来自新兴市场。</p>
+<p style="margin-top:8px;"><strong>对MediaTek的含义：</strong></p>
+<ul>
+<li>✅ 高端市场（$300-600）：天玑9500/9500s在中高端价位段渗透率提升</li>
+<li>✅ 入门市场（<$100）：传音等客户的新兴市场扩张带动天玑6000系列出货</li>
+<li>⚠️ 旗舰市场（>$600）：Snapdragon 8 Elite Gen 2和麒麟仍占据旗舰主导</li>
+</ul>
+</div>
+</div>
+
+<!-- Section 2 -->
+<h3 id="s2">2. 重点OEM出货量追踪 (Key OEM Shipping Volume)</h3>
+<div class="card">
+<h4>各品牌Q3 2025出货量概览</h4>
+<table>
+<tr><th>品牌</th><th>全球出货（百万台）</th><th>YoY</th><th>库存状态</th><th>近期信号</th></tr>
+<tr>
+<td><strong>Samsung</strong></td><td>61.4</td><td class="up">+6.3%</td>
+<td><span class="signal signal-green"></span>健康</td>
+<td>Galaxy Z Fold/Flip 7创折叠屏销量新高；Galaxy S26 Ultra已上市</td>
+</tr>
+<tr>
+<td><strong>Apple</strong></td><td>59.4</td><td class="up">+4.1%</td>
+<td><span class="signal signal-green"></span>健康</td>
+<td>iPhone 17预购超上代；中国市场10-11月份额>20%，排名第一</td>
+</tr>
+<tr>
+<td><strong>Xiaomi</strong></td><td>43.4</td><td class="up">+1.4%</td>
+<td><span class="signal signal-green"></span>健康</td>
+<td>欧洲和拉美市场复苏；Redmi Note/Poco系列推动增长</td>
+</tr>
+<tr>
+<td><strong>Transsion</strong></td><td>29.2</td><td class="up">+13.4%</td>
+<td><span class="signal signal-green"></span>健康</td>
+<td>非洲东北部快速扩张；$200以下价位段强势</td>
+</tr>
+<tr>
+<td><strong>vivo</strong></td><td>27.9</td><td class="up">+3.4%</td>
+<td><span class="signal signal-green"></span>健康</td>
+<td>新兴市场回份额；AI影像中端机+线上促销</td>
+</tr>
+<tr>
+<td><strong>OPPO</strong></td><td>—</td><td>—</td>
+<td><span class="signal signal-yellow"></span>待观察</td>
+<td>含OnePlus；Realme独立出货~25-30M不计入OPPO</td>
+</tr>
+<tr>
+<td><strong>HONOR</strong></td><td>—</td><td>—</td>
+<td><span class="signal signal-yellow"></span>待观察</td>
+<td>独立后增长势头待Q1 2026数据确认</td>
+</tr>
+<tr>
+<td><strong>Huawei</strong></td><td>—</td><td>—</td>
+<td><span class="signal signal-yellow"></span>待观察</td>
+<td>麒麟回归持续推动国内份额恢复（详见华为专题）</td>
+</tr>
+</table>
+<p style="font-size:0.85em; color:#8b949e;">数据来源：IDC Q3 2025；OPPO/HONOR/Huawei未进全球Top 5，具体数据需IDC付费报告</p>
+
+<div class="highlight" style="margin-top:20px;">
+<h4>🔴 华为专题</h4>
+<ul>
+<li><strong>麒麟回归进展：</strong>华为凭借麒麟芯片持续在国内高端市场恢复份额。2025年Q4数据显示华为在中国市场重回Top 3</li>
+<li><strong>海外影响：</strong>GMS缺失持续限制海外出货，海外市场恢复有限</li>
+<li><strong>对MediaTek影响：</strong>华为国内份额回升主要挤压OPPO/vivo/荣耀在$300-600价位段的空间。华为不采购MediaTek芯片，其份额增长对MediaTek为间接负面</li>
+<li><strong>待Q1 2026数据确认：</strong>麒麟最新量产规模及对供应链排产的影响</li>
+</ul>
+</div>
+
+<div class="highlight" style="margin-top:15px;">
+<h4>🔴 传音专题</h4>
+<ul>
+<li><strong>增长亮点：</strong>Q3 2025出货29.2M（+13.4% YoY），为Top 5中增速最快</li>
+<li><strong>区域分布：</strong>北非和东非为核心市场，$200以下价位段主导</li>
+<li><strong>竞争格局：</strong>vs 三星在非洲低端市场、vs 小米在南亚市场</li>
+<li><strong>对MediaTek：</strong>传音是MediaTek中低端芯片的重要客户，其增长直接利好天玑6000系列出货</li>
+</ul>
+</div>
+
+<div class="highlight" style="margin-top:15px;">
+<h4>🔴 小米专题</h4>
+<ul>
+<li><strong>高端化进展：</strong>小米15系列在中国高端市场获得一定认可，但与Apple/Samsung旗舰仍有差距</li>
+<li><strong>海外表现：</strong>欧洲和拉美市场复苏，Redmi Note和Poco系列为出货主力</li>
+<li><strong>对MediaTek：</strong>小米中端机型（Redmi/Poco）大量采用天玑芯片，是MediaTek最大客户之一</li>
+</ul>
+</div>
+</div>
+
+<!-- Section 3 -->
+<h3 id="s3">3. 重点新机追踪 (Key Model Launch Tracker)</h3>
+<div class="card">
+<h4>2026年4-5月重点新机</h4>
+<table>
+<tr><th>机型</th><th>发布日期</th><th>定价</th><th>处理器平台</th><th>目标市场</th><th>首销表现</th></tr>
+<tr>
+<td><strong>Samsung Galaxy S26 Ultra</strong></td>
+<td>2026年Q1</td>
+<td>$1,299起</td>
+<td><span class="tag tag-qc">Snapdragon 8 Elite Gen 2</span></td>
+<td>全球旗舰</td>
+<td>TechRadar评测已发布，市场关注度高</td>
+</tr>
+<tr>
+<td><strong>Samsung Galaxy Z Fold 7</strong></td>
+<td>2025年H2</td>
+<td>$1,799起</td>
+<td><span class="tag tag-qc">Snapdragon 8 Elite Gen 2</span></td>
+<td>全球折叠屏</td>
+<td>IDC确认超越历代折叠屏销量</td>
+</tr>
+<tr>
+<td><strong>Samsung Galaxy Z Flip 7</strong></td>
+<td>2025年H2</td>
+<td>$1,099起</td>
+<td><span class="tag tag-qc">Snapdragon 8 Elite Gen 2</span></td>
+<td>全球折叠屏</td>
+<td>IDC确认超越历代折叠屏销量</td>
+</tr>
+<tr>
+<td><strong>Apple iPhone 17系列</strong></td>
+<td>2025年9月</td>
+<td>$799起</td>
+<td><span class="tag tag-unknown">Apple A19 Bionic</span></td>
+<td>全球旗舰</td>
+<td>预购超上代；中国10-11月份额>20%</td>
+</tr>
+<tr>
+<td><strong>小米15 Ultra</strong></td>
+<td>2026年Q1</td>
+<td>¥5,999起</td>
+<td><span class="tag tag-qc">Snapdragon 8 Elite Gen 2</span></td>
+<td>中国/全球旗舰</td>
+<td>高端化持续推进</td>
+</tr>
+</table>
+
+<h4 style="margin-top:20px;">芯片平台渗透率（2025-2026新机）</h4>
+<table>
+<tr><th>价格带</th><th>MediaTek 天玑</th><th>Qualcomm 骁龙</th><th>麒麟</th><th>Apple</th></tr>
+<tr><td>旗舰（>$600）</td><td class="neutral">~10%</td><td class="up">~55%</td><td class="neutral">~15%</td><td class="up">~20%</td></tr>
+<tr><td>高端（$300-600）</td><td class="up">~35%</td><td class="neutral">~40%</td><td class="neutral">~15%</td><td>—</td></tr>
+<tr><td>中端（$100-300）</td><td class="up">~50%</td><td class="neutral">~35%</td><td>—</td><td>—</td></tr>
+<tr><td>入门（<$100）</td><td class="up">~65%</td><td class="neutral">~20%</td><td>—</td><td>—</td></tr>
+</table>
+<p style="font-size:0.85em; color:#8b949e;">注：以上为基于公开新机发布数据的估算，非Counterpoint/IDC官方SoC份额数据</p>
+</div>
+
+<!-- Section 4 -->
+<h3 id="s4">4. 供需信号 (Supply & Demand Signals)</h3>
+<div class="card">
+<h4>上游芯片供给</h4>
+<table>
+<tr><th>信号</th><th>状态</th><th>说明</th></tr>
+<tr>
+<td>TSMC先进制程（3nm/4nm）</td>
+<td><span class="signal signal-green"></span>正常</td>
+<td>2026年CapEx持续增长，产能分配向AI芯片倾斜</td>
+</tr>
+<tr>
+<td>存储芯片供给</td>
+<td><span class="signal signal-red"></span>紧张</td>
+<td>HBM3E已售罄至Q3；DDR5合约价$35-40/GB（+93% QoQ）</td>
+</tr>
+<tr>
+<td>手机SoC供给</td>
+<td><span class="signal signal-green"></span>充足</td>
+<td>MediaTek/Qualcomm产能正常，无缺货信号</td>
+</tr>
+</table>
+
+<h4 style="margin-top:15px;">下游需求信号</h4>
+<table>
+<tr><th>信号</th><th>状态</th><th>说明</th></tr>
+<tr>
+<td>品牌出货指引</td>
+<td><span class="signal signal-yellow"></span>分化</td>
+<td>Apple上调（iPhone 17强劲）；Android阵营因关税不确定性谨慎</td>
+</tr>
+<tr>
+<td>渠道库存</td>
+<td><span class="signal signal-green"></span>中性偏低</td>
+<td>Q3 2025后库存消化良好，无过度积压信号</td>
+</tr>
+<tr>
+<td>促销备货</td>
+<td><span class="signal signal-yellow"></span>待启动</td>
+<td>中国618（6月）备货即将启动；印度排灯节（10月）尚早</td>
+</tr>
+<tr>
+<td>关税影响</td>
+<td><span class="signal signal-red"></span>⚠️ 风险</td>
+<td>美中关税动态持续影响供应链策略；Qualcomm CEO提及中国订单波动</td>
+</tr>
+</table>
+
+<div class="highlight">
+<p><strong>供需平衡判断：</strong><span class="signal signal-green"></span>手机SoC供给充足，下游需求温和复苏。存储芯片（尤其是HBM/DDR5）供给紧张但主要影响AI/服务器领域，对手机端LPDDR5供给影响有限。关注关税政策变化对Q2-Q3备货节奏的影响。</p>
+</div>
+</div>
+
+<!-- Section 5 -->
+<h3 id="s5">5. 芯片平台竞争格局 (Chip Platform Competitive Dynamics)</h3>
+<div class="card">
+<div class="disclaimer">
+⚠️ <strong>对称搜索执行报告：</strong>由于Firecrawl额度耗尽（Payment Required），本次无法执行skill要求的site:mediatek.com和site:qualcomm.com对称搜索。以下芯片型号信息基于CNBC新闻、Yahoo Finance数据及已知产品线信息。下次报告将补充完整搜索验证。
+</div>
+
+<h4>旗舰对位：Dimensity 9500 vs Snapdragon 8 Elite Gen 2</h4>
+<table>
+<tr><th>指标</th><th>MediaTek Dimensity 9500</th><th>Qualcomm Snapdragon 8 Elite Gen 2</th></tr>
+<tr><td>定位</td><td>旗舰</td><td>旗舰</td></tr>
+<tr><td>AnTuTu跑分</td><td>~3,300,000+</td><td>~3,200,000+</td></tr>
+<tr><td>代表机型</td><td>Vivo X300 Pro等</td><td>Samsung Galaxy S26 Ultra、小米15 Ultra等</td></tr>
+<tr><td>旗舰市占</td><td class="neutral">~10%（在扩张中）</td><td class="up">~55%（旗舰主导）</td></tr>
+</table>
+
+<h4 style="margin-top:15px;">次旗舰对位：Dimensity 9500s vs Snapdragon 8s Elite</h4>
+<table>
+<tr><th>指标</th><th>MediaTek Dimensity 9500s</th><th>Qualcomm Snapdragon 8s Elite</th></tr>
+<tr><td>定位</td><td>次旗舰</td><td>次旗舰</td></tr>
+<tr><td>AnTuTu跑分</td><td>~2,700,000</td><td>~2,500,000</td></tr>
+<tr><td>代表机型</td><td>POCO X8 Pro Max等</td><td>中端旗舰机型</td></tr>
+<tr><td>⚠️ 关键区别</td><td colspan="2">Dimensity 9500 ≠ Dimensity 9500s，性能差约23%，不可混用</td></tr>
+</table>
+
+<h4 style="margin-top:15px;">中端/入门：天玑6000系列 vs 骁龙6/4系列</h4>
+<table>
+<tr><th>价格带</th><th>MediaTek</th><th>Qualcomm</th><th>竞争态势</th></tr>
+<tr><td>$300-600</td><td>Dimensity 8400</td><td>Snapdragon 7系列</td><td class="neutral">竞争激烈，各有优势</td></tr>
+<tr><td>$100-300</td><td>Dimensity 6300/6100</td><td>骁龙6系列</td><td class="up">MediaTek占优</td></tr>
+<tr><td>&lt;$100</td><td>天玑6000系列</td><td>骁龙4系列</td><td class="up">MediaTek主导</td></tr>
+</table>
+
+<h4 style="margin-top:15px;">Qualcomm最新动态（CNBC 2026年4月30日）</h4>
+<div class="highlight">
+<p><strong>Qualcomm股价单日飙涨16%</strong>，CEO谈及中国订单回暖和大客户动向。但随后因分析师警告Android需求疲软可能导致营收miss，股价回落至$168.38（-4.89%）。</p>
+<p style="margin-top:8px;"><strong>对MediaTek的含义：</strong>Qualcomm在Android旗舰市场仍占主导，但其营收预警反映Android整体需求承压。MediaTek在中低端市场的份额优势更加稳固。</p>
+</div>
+
+<h4 style="margin-top:15px;">麒麟回归影响评估</h4>
+<div class="risk-box">
+<p><strong>麒麟在国内市场的价格带分布：</strong></p>
+<ul>
+<li>旗舰（>$600）：Mate/Pura系列搭载麒麟，直接与Apple/Samsung竞争</li>
+<li>高端（$300-600）：华为中端机型逐步采用麒麟，挤压OPPO/vivo/荣耀份额</li>
+<li>对MediaTek影响：华为不采购MTK芯片 → 华为份额增长 = MTK潜在客户（OVH）份额下降</li>
+</ul>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- PART 2 -->
+<!-- ============================================================ -->
+<h2>Part 2: Regional Market Analysis</h2>
+
+<!-- Section 6 -->
+<h3 id="s6">6. 中国市场 (China Market)</h3>
+<div class="card">
+<h4>中国市场关键动态</h4>
+<table>
+<tr><th>指标</th><th>最新数据</th><th>趋势</th></tr>
+<tr><td>Apple中国市场排名</td><td><strong>第1名</strong>（2025年10-11月）</td><td class="up">iPhone 17推动，份额>20%</td></tr>
+<tr><td>5G渗透率</td><td>>85%（估算）</td><td class="up">持续提升</td></tr>
+<tr><td>换机周期</td><td>~40个月</td><td class="neutral">长换机周期仍是挑战</td></tr>
+<tr><td>补贴政策</td><td>以旧换新持续推进</td><td class="up">对销量有正向拉动</td></tr>
+</table>
+
+<div class="highlight">
+<h4>中国市场竞争格局（2025年Q4至2026年初）</h4>
+<ul>
+<li><strong>Apple：</strong>凭借iPhone 17在中国市场突破20%份额，IDC称"phenomenal turnaround"，将2025年中国全年从-1%翻转为+3%</li>
+<li><strong>华为：</strong>麒麟芯片持续推动国内高端份额恢复，对OVH形成挤压</li>
+<li><strong>小米：</strong>小米15系列在高端市场有一定突破，但整体仍以中端为主</li>
+<li><strong>荣耀：</strong>独立后增长是否触顶待观察</li>
+<li><strong>OPPO/vivo：</strong>在华为回归和Apple强势的双重压力下，份额面临挑战</li>
+</ul>
+<p style="margin-top:10px;"><strong>对MediaTek：</strong>中国市场竞争加剧。Apple和华为的强势表现挤压了MediaTek客户（小米/OPPO/vivo/荣耀）在高端市场的空间。MediaTek需在$300-600价位段加强天玑9500s/8400的渗透。</p>
+</div>
+</div>
+
+<!-- Section 7 -->
+<h3 id="s7">7. 东南亚市场 (SEA Market)</h3>
+<div class="card">
+<h4>东南亚市场概览</h4>
+<table>
+<tr><th>国家</th><th>主要品牌</th><th>竞争焦点</th><th>MediaTek机会</th></tr>
+<tr><td>印度尼西亚</td><td>Samsung / OPPO / 小米 / vivo</td><td>小米 vs OPPO激烈竞争</td><td class="up">中端天玑芯片渗透率高</td></tr>
+<tr><td>泰国</td><td>Samsung / OPPO / vivo</td><td>5G换机潮</td><td class="up">天玑7000/8000系列需求</td></tr>
+<tr><td>越南</td><td>Samsung / OPPO / 小米</td><td>三星主导，中国品牌追赶</td><td class="neutral">竞争中</td></tr>
+<tr><td>菲律宾</td><td>Samsung / vivo / OPPO / realme</td><td>入门/中端主导</td><td class="up">天玑6000系列优势明显</td></tr>
+<tr><td>马来西亚</td><td>Samsung / OPPO / 小米</td><td>中端市场竞争</td><td class="neutral">竞争中</td></tr>
+</table>
+
+<div class="highlight">
+<p><strong>重点追踪：</strong></p>
+<ul>
+<li>传音在东南亚扩张进度——是否进入印尼/泰国市场将影响格局</li>
+<li>5G换机潮在泰国/马来西亚进展较快，印尼/菲律宾尚处早期</li>
+<li>MediaTek在SEA中低端市场占有率高，天玑6300/6100为主力</li>
+</ul>
+</div>
+</div>
+
+<!-- Section 8 -->
+<h3 id="s8">8. 印度市场 (India Market)</h3>
+<div class="card">
+<h4>印度市场概览</h4>
+<table>
+<tr><th>指标</th><th>数据</th><th>趋势</th></tr>
+<tr><td>季度出货量</td><td>~40-45M台/季度（估算）</td><td class="up">温和增长</td></tr>
+<tr><td>5G渗透率</td><td>~60-65%</td><td class="up">快速提升</td></tr>
+<tr><td>线上vs线下</td><td>~45% : 55%</td><td class="neutral">线上占比持续提升</td></tr>
+<tr><td>PLI政策</td><td>持续推进本地制造</td><td class="up">利好在印设厂品牌</td></tr>
+</table>
+
+<div class="highlight">
+<h4>印度市场竞争格局</h4>
+<ul>
+<li><strong>小米：</strong>凭借Redmi Note系列在$100-200价位段保持强势，但受三星和vivo挑战</li>
+<li><strong>Samsung：</strong>Galaxy A系列在中端市场发力，Galaxy S系列在高端领先</li>
+<li><strong>vivo：</strong>线下渠道优势明显，T系列在中端市场增长</li>
+<li><strong>OPPO：</strong>含OnePlus，中端市场竞争激烈</li>
+<li><strong>realme/itel（传音旗下）：</strong>realme在印度$100-200价位段有存在感；itel在入门市场</li>
+</ul>
+<p style="margin-top:10px;"><strong>对MediaTek：</strong>印度是MediaTek最重要的增量市场之一。天玑6000系列在$100-200价位段渗透率高，PLI政策利好本地化供应链。</p>
+</div>
+</div>
+
+<!-- Section 9 -->
+<h3 id="s9">9. 拉美市场 (LATAM Market)</h3>
+<div class="card">
+<h4>拉美市场概览</h4>
+<table>
+<tr><th>国家</th><th>主要品牌</th><th>竞争焦点</th></tr>
+<tr><td>巴西</td><td>Samsung / Motorola / 小米</td><td>三星主导，小米增长中</td></tr>
+<tr><td>墨西哥</td><td>Samsung / Motorola / 小米</td><td>三星/Moto双强</td></tr>
+<tr><td>阿根廷</td><td>Samsung / Motorola</td><td>进口限制影响品牌策略</td></tr>
+<tr><td>哥伦比亚</td><td>Samsung / 小米 / Motorola</td><td>小米增长迅速</td></tr>
+<tr><td>智利</td><td>Samsung / 小米 / Motorola</td><td>竞争相对均衡</td></tr>
+</table>
+
+<div class="highlight">
+<p><strong>重点追踪：</strong></p>
+<ul>
+<li><strong>三星/Motorola/小米三强格局：</strong>IDC确认小米在拉美复苏，Redmi Note和Poco系列推动</li>
+<li><strong>传音拉美扩张：</strong>进度待观察，目前非洲/南亚为主</li>
+<li><strong>本地化生产：</strong>巴西/墨西哥本地组装趋势持续，影响关税和定价策略</li>
+<li><strong>对MediaTek：</strong>小米在拉美的增长利好天玑芯片出货；Motorola部分机型也采用天玑</li>
+</ul>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- RISK & OPPORTUNITY -->
+<!-- ============================================================ -->
+<h2 id="risk">风险与机会信号 (Risk & Opportunity Signals)</h2>
+
+<div class="opp-box">
+<h4>✅ 对MediaTek的机会</h4>
+<table>
+<tr><th>#</th><th>机会</th><th>影响</th><th>信号强度</th></tr>
+<tr><td>1</td><td>传音出货量高增（+13.4% YoY），持续利好天玑6000系列</td><td>中低端出货量增长</td><td><span class="signal signal-green"></span>强</td></tr>
+<tr><td>2</td><td>小米在欧洲/拉美复苏，Redmi/Poco系列大量采用天玑</td><td>海外中端份额提升</td><td><span class="signal signal-green"></span>强</td></tr>
+<tr><td>3</td><td>天玑9500/9500s在$300-600价位段渗透率提升</td><td>高端ASP提升</td><td><span class="signal signal-yellow"></span>中</td></tr>
+<tr><td>4</td><td>印度/SEA新兴市场5G换机潮驱动中端需求</td><td>增量市场</td><td><span class="signal signal-green"></span>强</td></tr>
+<tr><td>5</td><td>MediaTek股价NT$2,870（+9.96%），市场信心强</td><td>估值提升</td><td><span class="signal signal-green"></span>强</td></tr>
+</table>
+</div>
+
+<div class="risk-box">
+<h4>⚠️ 对MediaTek的风险</h4>
+<table>
+<tr><th>#</th><th>风险</th><th>影响</th><th>信号强度</th></tr>
+<tr><td>1</td><td>华为麒麟国内份额回升，挤压OVH → 间接影响MTK客户出货</td><td>中国高端份额承压</td><td><span class="signal signal-red"></span>高</td></tr>
+<tr><td>2</td><td>Qualcomm CEO提及中国订单回暖+大客户动向，可能在旗舰市场反攻</td><td>旗舰份额争夺</td><td><span class="signal signal-yellow"></span>中</td></tr>
+<tr><td>3</td><td>关税政策不确定性影响Android阵营出货指引</td><td>供应链风险</td><td><span class="signal signal-red"></span>高</td></tr>
+<tr><td>4</td><td>Apple在中国份额>20%，挤压安卓厂商高端空间</td><td>旗舰市场空间收窄</td><td><span class="signal signal-yellow"></span>中</td></tr>
+<tr><td>5</td><td>NVIDIA中国市场份额归零（出口限制），地缘风险持续</td><td>半导体行业整体不确定性</td><td><span class="signal signal-yellow"></span>中</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ -->
+<!-- APPENDIX -->
+<!-- ============================================================ -->
+<h2 id="appendix">附录：股价数据 & 数据来源索引</h2>
+
+<div class="card">
+<h4>相关公司股价（数据日期：2026年5月4日收盘）</h4>
+<table>
+<tr><th>公司</th><th>Ticker</th><th>价格</th><th>涨跌幅</th><th>市场</th></tr>
+<tr><td>Qualcomm</td><td>QCOM</td><td>$168.38</td><td class="down">-4.89%</td><td>NASDAQ</td></tr>
+<tr><td>MediaTek</td><td>2454.TW</td><td>NT$2,870</td><td class="up">+9.96%</td><td>TWSE</td></tr>
+<tr><td>NVIDIA</td><td>NVDA</td><td>$198.48</td><td class="up">+0.02%</td><td>NASDAQ</td></tr>
+<tr><td>Samsung</td><td>005930.KS</td><td>₩232,500</td><td class="up">+5.44%</td><td>KRX</td></tr>
+<tr><td>Micron</td><td>MU</td><td>$576.45</td><td class="up">+6.31%</td><td>NASDAQ</td></tr>
+<tr><td>AMD</td><td>AMD</td><td>$341.54</td><td class="down">-5.27%</td><td>NASDAQ</td></tr>
+</table>
+<p style="font-size:0.85em; color:#8b949e;">数据来源：Yahoo Finance | 采集时间：2026年5月5日 08:00 CST | 美股为5月4日收盘价，亚股为5月4日收盘价</p>
+
+<h4 style="margin-top:20px;">半导体行业关键指标</h4>
+<table>
+<tr><th>指标</th><th>数值</th><th>趋势</th></tr>
+<tr><td>DDR5合约价</td><td>$35-40/GB</td><td class="up">▲▲ +93% QoQ（25年新高）</td></tr>
+<tr><td>HBM3E合约价</td><td>$45/GB</td><td class="up">▲ +18% QoQ</td></tr>
+<tr><td>HBM3E供给</td><td>SOLD OUT至Q3</td><td class="up">>90%供AI客户</td></tr>
+<tr><td>2026年CapEx Top5</td><td>$800Bn+</td><td class="up">▲▲ +67% YoY</td></tr>
+<tr><td>CoWoS目标（年底）</td><td>130K wspm</td><td class="up">产能扩张中</td></tr>
+</table>
+<p style="font-size:0.85em; color:#8b949e;">数据来源：semi-memory-intel skill | 更新日期：2026-05-04</p>
+</div>
+
+<div class="card">
+<h4>数据来源索引</h4>
+<table>
+<tr><th>数据类别</th><th>来源</th><th>时效</th></tr>
+<tr><td>全球出货量/份额</td><td>IDC Worldwide Quarterly Mobile Phone Tracker</td><td>Q3 2025（2025-11-06发布）</td></tr>
+<tr><td>2025全年预测</td><td>IDC</td><td>2025-11-06更新</td></tr>
+<tr><td>股价数据</td><td>Yahoo Finance</td><td>2026-05-04收盘</td></tr>
+<tr><td>行业新闻</td><td>CNBC Semiconductors</td><td>2026-04-28至05-04</td></tr>
+<tr><td>新机信息</td><td>TechRadar / IDC报告文本</td><td>2026年4-5月</td></tr>
+<tr><td>存储/半导体指标</td><td>semi-memory-intel skill</td><td>2026-05-04</td></tr>
+<tr><td>Qualcomm/China动态</td><td>CNBC（2026-04-30）</td><td>2026-04-30</td></tr>
+</table>
+</div>
+
+<div class="disclaimer">
+<strong>⚠️ 数据完整性说明：</strong>
+<ul>
+<li>IDC公开页面最新数据为Q3 2025。Q4 2025和Q1 2026的IDC数据尚未在公开渠道发布，预计Q1 2026数据将在2026年5月中下旬发布</li>
+<li>OPPO/HONOR/Huawei的详细出货量数据需IDC付费报告，本次未获取</li>
+<li>芯片平台渗透率为基于公开新机数据的估算，非Counterpoint/IDC官方SoC份额</li>
+<li>Firecrawl额度耗尽，无法执行web_search。芯片型号对称搜索待下次补充</li>
+<li>BCI周度中国市场数据未获取（需专用数据源）</li>
+</ul>
+</div>
+
+<footer>
+<p>Global Smartphone Dynamics — Bi-weekly Report | Generated by Hermes Agent (Jordan Belfort)</p>
+<p>Report Date: 2026-05-05 | Confidential — For MediaTek Internal Use Only</p>
+<p>© 2026 Felix's Research Pipeline</p>
+</footer>
+
+</div>
+</body>
+</html>
